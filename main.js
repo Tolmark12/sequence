@@ -1,1 +1,3 @@
-export default require('./index')
+module.exports = {
+  Sequence : require('./index')
+}

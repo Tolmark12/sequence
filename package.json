@@ -1,6 +1,6 @@
 {
   "name": "sequence",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple lib for working with sequential lists",
   "main": "dist/main.bundle.js",
   "repository": "https://github.com/Tolmark12/sequence",
