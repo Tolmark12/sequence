@@ -1,6 +1,6 @@
 {
   "name": "sequence",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple lib for working with sequential lists",
   "main": "dist/main.bundle.js",
   "repository": "https://github.com/Tolmark12/sequence",
@@ -15,5 +15,8 @@
     "babel-loader": "^7.1.2",
     "uglifyjs-webpack-plugin": "^1.0.1",
     "webpack": "^3.8.1"
+  },
+  "scripts":{
+    "build":"webpack --config webpack.prod.js"
   }
 }
