@@ -1,4 +1,4 @@
-module.exports =  class Sequin {
+module.exports =  class {
 
   constructor( items ) {
     this.items = items;
