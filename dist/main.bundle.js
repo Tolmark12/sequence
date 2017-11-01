@@ -85,9 +85,9 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-module.exports = function () {
-  function _class(items) {
-    _classCallCheck(this, _class);
+var Sequence = function () {
+  function Sequence(items) {
+    _classCallCheck(this, Sequence);
 
     this.items = items;
     this.reset();
@@ -99,7 +99,7 @@ module.exports = function () {
   // Go to the next item
 
 
-  _createClass(_class, [{
+  _createClass(Sequence, [{
     key: "next",
     value: function next() {
       var loopOnOverShoot = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
@@ -202,8 +202,10 @@ module.exports = function () {
     }
   }]);
 
-  return _class;
+  return Sequence;
 }();
+
+exports.default = Sequence;
 
 /***/ })
 /******/ ]);

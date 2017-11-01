@@ -1,4 +1,4 @@
-module.exports =  class {
+class Sequence{
 
   constructor( items ) {
     this.items = items;
@@ -86,3 +86,5 @@ module.exports =  class {
     this.totalItems--;
   }
 }
+
+exports.default = Sequence;
