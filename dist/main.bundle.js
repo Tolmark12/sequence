@@ -1,4 +1,4 @@
-var sequence =
+exports["Sequence"] =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
