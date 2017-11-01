@@ -18,7 +18,7 @@ module.exports = {
 		filename: '[name].bundle.js',
 		path: path.resolve(__dirname, 'dist'),
 		library: 'Sequence',
-		libraryTarget : 'commonjs'
+		libraryTarget : 'commonjs2'
 	},
 
 	module: {
