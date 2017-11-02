@@ -190,6 +190,16 @@ module.exports = function () {
     get: function get() {
       return this.items[this.currentItemIndex];
     }
+  }, {
+    key: "firstItem",
+    get: function get() {
+      return this.items[0];
+    }
+  }, {
+    key: "lastItem",
+    get: function get() {
+      return this.items[this.items.length - 1];
+    }
   }]);
 
   return _class;

@@ -19,7 +19,9 @@ module.exports = class  {
   }
 
   get currentItem() { return this.items[ this.currentItemIndex ]; }
-
+  get firstItem()   { return this.items[ 0 ]; }
+  get lastItem()    { return this.items[ this.items.length-1 ]; }
+  
   incramentItemIndex( incrament, loopOnOverShoot) {
     if (loopOnOverShoot == null) { loopOnOverShoot = false; }
     let newIndex = this.currentItemIndex + incrament;
